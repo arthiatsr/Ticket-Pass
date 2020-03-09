@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">   
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <title>Seller Form Page</title>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Post Pass</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav float-right">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Sell It</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">My Listings</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>   
+              
+            <div class= "container">
+              <div class="row">
+                    <div class="col-md-12">
+                      <div class="card mb-4 p-4">
+                        <div class="card-body">
+                            <div class="card">
+                              <div class="card-body" style="text-align: center">
+                                Ticket Info
+                              </div>
+                            </div>
+                            <form>
+                                <div class="form-group row">
+                                <label for="name-input">Name</label>
+                                <input class="form-control" id="name-input" placeholder="Jon Smith" type="text">
+                                </div>
+                                <div class="form-group row">
+                                <label for="dest-input">Email</label>
+                                <input class="form-control" id="email-input" placeholder="jon@gmail.com" type="text">
+                                </div>
+                                <div class="form-group row">
+                                <label for="section-input">Section Number</label>
+                                <input class="form-control" id="ticket-section" placeholder="Please input a number between 1 and 4" type="number" min="1" max="4">
+                                </div>
+                                <div class="form-group row">
+                                <label for="row-input">Row</label>
+                                <input class="form-control" id="row-input" placeholder="Please input a number between 1 and 20" type="number" min="1" max="20">
+                                </div>
+                                <div class="form-group row">
+                                <label for="seat-input">Seat Number</label>
+                                <input class="form-control" id="seat-input" placeholder="Please input a number between 1 and 30" type="number" min="1" max="30">
+                                </div>
+                                <div class="form-group row">
+                                <label for="price-input">Price</label>
+                                <input class="form-control" id="user-price" type="text">
+                                </div>
+                                <p id="form-info">Placeholder</p>
+                                <button id="ticket-submit" type="button" class="btn btn-secondary btn-lg btn-block">Submit Your Ticket</button>
+                            </form>
+                        </div>
+                    </div>
+                  </div>
+             </div>
+          </div>
+
+
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        <script type = "text/javascript" src="js/form.js"></script>
+
+                            
+           
+</body>
+</html>
