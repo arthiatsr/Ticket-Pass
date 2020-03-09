@@ -23,7 +23,7 @@ The Home page has the following 3 options.
   See all of his sold tickets.
 
 
-deployed Link: https://stark-headland-02310.herokuapp.com/
+deployedLink: https://stark-headland-02310.herokuapp.com/
 
 
 
